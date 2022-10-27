@@ -108,7 +108,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
       ('O medo de amar é o medo de ser livre', 207, 5, 3),
       ('Samba em Paris', 267, 6, 4),
       ('The bard’s song', 244, 7, 5),
-      ('Feeling good', 100, 8, 6);
+      ('Feeling Good', 100, 8, 6);
 
     INSERT INTO SpotifyClone.favorites (artist_id, user_id)
       VALUES
