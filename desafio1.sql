@@ -99,15 +99,15 @@ DROP DATABASE IF EXISTS SpotifyClone;
 
     INSERT INTO SpotifyClone.songs (songs_name, songs_duration, album_id, artist_id)
       VALUES
-      ('Break my soul', 279, 1, 1),
-      ('Virgo’s groove', 369, 1, 1),
-      ('Alien superstar', 116, 1, 1),
-      ('Don’t stop me now', 203, 2, 2),
-      ('Under pressure', 152, 3, 2),
-      ('Como nossos pais', 105, 4, 3),
-      ('O medo de amar é o medo de ser livre', 207, 5, 3),
+      ('BREAK MY SOUL', 279, 1, 1),
+      ('VIRGO’S GROOVE', 369, 1, 1),
+      ('ALIEN SUPERSTAR', 116, 1, 1),
+      ('Don’t Stop Me Now', 203, 2, 2),
+      ('Under Pressure', 152, 3, 2),
+      ('Como Nossos Pais', 105, 4, 3),
+      ('O Medo de Amar é o Medo de Ser Livre', 207, 5, 3),
       ('Samba em Paris', 267, 6, 4),
-      ('The bard’s song', 244, 7, 5),
+      ('The Bard’s Song', 244, 7, 5),
       ('Feeling Good', 100, 8, 6);
 
     INSERT INTO SpotifyClone.favorites (artist_id, user_id)
